@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 10px solid #b2d7e2;
+}
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background: #d6ebf2;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #b2d7e2, -5px -5px 10px #ffffff;
+}
+
+button:hover {
+    background: #b2d7e2;
+    box-shadow: inset 5px 5px 10px #b2d7e2, inset -5px -5px 10px #ffffff;
+}
+
+h2 {
+    color: #333;
+}
+
+iframe {
+    margin: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+h1 {
+    color: #333;
+}
+
+audio {
+    margin: 15px;
+}
+
+audio:hover {
+    filter: brightness(90%);
+}
+
+
+audio:focus {
+    outline: none;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    iframe {
+        margin: 10px;
+    }
+
+    audio {
+        margin: 10px;
+    }
+}
